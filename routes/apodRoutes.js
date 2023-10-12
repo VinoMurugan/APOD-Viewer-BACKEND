@@ -57,19 +57,7 @@ router.get('/', async (req, res) => {
     }
   });
   
-  // // Update a specific APOD entry
-  // router.put('/:id', async (req, res) => {
-  //   try {
-  //     // Add code to update the APOD entry based on req.body
-  //     // For example: await APOD.findByIdAndUpdate(req.params.id, req.body);
-  //     res.redirect('/apods');
-  //   } catch (error) {
-  //     console.error(error);
-  //     res.status(500).send('Internal Server Error');
-  //   }
-  // });
-  
-  // Delete a specific APOD entry
+
  // Delete a specific APOD entry
 router.delete('/:id', async (req, res) => {
   try {
