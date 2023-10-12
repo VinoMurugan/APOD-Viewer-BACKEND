@@ -13,8 +13,7 @@ const apodsRoutes = require('./routes/apodRoutes');
 const connectDB = require('./config/database');
 
 
-// Add your APOD model import
-// const apods = require('./models/apods');
+
 
 connectDB();
 
@@ -35,8 +34,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// Define your routes
-// app.use('/apods', apods);
+
 
 
 // Define your routes
